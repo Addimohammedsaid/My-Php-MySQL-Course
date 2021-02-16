@@ -1,0 +1,328 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  *:focus{
+    outline: none;
+  }
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  a:hover{
+    opacity: 0.75;
+  }
+
+  li {
+    list-style: none;
+  }
+  
+  body {
+    background-color: #F1F1F1; 
+    font-family: Raleway, sans-serif;
+    line-height: 1.8;
+    position: relative;
+    min-height: 100vh;
+  }
+
+  img {
+    object-fit: cover;   
+    width: 100%;
+  }
+
+  .btn a {
+    color: white;    
+  }
+
+  .btn {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background: lightgray;
+    color: white;
+  }
+  
+  .btn-accent{
+    background-color: steelblue;
+  }
+
+  .container {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+  .php-echo{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;    
+  }
+
+  /* ================= Forms ================== */
+
+  .form-container {
+    max-width: 500px;
+    margin: 0px auto;
+    padding: 40px;
+    padding-top: 100px;
+  }
+
+  form .btn {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-wrap {
+    background: #ffffff;
+    padding: 15px 25px;
+    color: #333;
+  }
+  
+  .form-wrap h1,
+  .form-wrap p {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-top: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: #ddd solid 1px;
+    border-radius: 5px;
+  }
+  
+  .small-text {
+    font-size: 13px;
+  }
+
+  .t-center {
+      text-align: center;
+  }
+
+  .nav-auth {
+      padding-top: 40px;
+      text-align: center;
+      color: #444;
+      font-size: 16px;
+  }
+
+  .nav-auth a {
+      color: #5b78ad;
+  }
+  
+  /* ================= Header ================== */
+
+  header {   
+    padding: 0px 40px;
+    background-color: #344a72;
+    display: flex;
+    justify-content: space-between; 
+    font-size: 1rem;    
+  }
+
+  header ul {
+    padding: 20px;
+  }
+
+  header .logo {
+    padding: 20px;
+    color: white;
+  }
+
+  header nav ul li{
+    margin: 0 5px;
+    display: inline;
+  }
+
+  header nav ul li a {
+    color: white;
+    opacity: 0.7;
+  }
+  
+  header nav ul li .active {    
+    opacity: 1;
+  }
+
+
+
+
+  /* ================= blog ================== */
+  .blog{             
+    min-height: 100vh;
+    padding: 20px 40px;   
+    margin: 0 auto;
+    padding-bottom: 100px;
+    display: flex;      
+    flex-direction: column;
+  }
+
+  /* ================= sidebar ================== */
+  .sidebar {
+    font-size: 1rem;
+  }
+
+  .sidebar nav{
+    padding: 20px;
+    border: solid 1px #dbdbdb;
+    background: white;
+    border-radius: 3px;
+  }
+
+  .sidebar nav span{
+    padding-right: 10px;
+    font-size: 1.5rem;
+    color: #333
+  }
+
+  .sidebar a {
+    display: block;    
+    padding: 0.6em 0;
+    color: #444;
+  }
+
+  .sidebar a:hover, .sidebar a:active {    
+    color: #000;
+  }
+
+  /* ================= Main ================== */
+  main{
+    margin: 50px 0px;      
+    width: 100%;
+  }
+
+   /* Form Section */
+  .form-publish {        
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;		  
+	  background: white;
+  }
+
+  .form-publish form{    
+    text-align: left;
+    width: 100%;    
+    margin: auto;
+  }
+
+  .form-publish form label{    
+    color: #5a5a5a;
+  }
+
+  .form-publish input {
+    padding : 15px;
+    width: 100%;
+    border : 1px solid #dbdbdb;
+    color: #5a5a5a;  
+    margin-bottom: 10px;   
+  }
+
+  /* Cards Section */
+  .card {
+    border: solid 1px #dbdbdb;
+    background: white;
+    border-radius: 3px;    
+    margin: 10px auto;
+  }
+
+  .card-header {
+    padding: 10px;        
+    display: flex;
+    align-items: center;
+    align-self: center;
+  }
+
+  .card-avatar {
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+  }
+
+  .avatar {
+    border-radius: 50%;
+  }
+
+  .card-title {
+    font-weight: bold;
+    color: black;
+    margin: 5px 0;
+    font-size: 1.1rem;
+  }
+
+  .card-date {
+    color: rgba(0,0,0,0.38);
+    font-size: 12px;
+  }
+
+  .card-body {       
+    display: block;
+  }
+
+  .card-body img{  
+   height: 400px;
+  }
+
+  .card-body p {
+    opacity: 0.7;
+    padding: 10px;
+  }
+
+  .card-footer {
+    border: solid 1px #dbdbdb;
+    color: #bdbdbd;
+    background-color: #fbfbfb;
+    padding : 10px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media only screen and (min-width : 950px){
+
+    .blog {      
+      flex-direction: row;
+    }
+
+    main{
+      width: 100%;
+      margin: 0 30px;      
+    }
+
+    .sidebar{
+      display: block;
+      width: 180px;
+      flex: none;
+    }
+
+    .sidebar a{
+      width: 100%;
+    }
+
+    aside{
+      flex: none;
+      width: 310px;
+    }
+
+  } 
+
+  /* ================= Footer ================== */
+
+  footer {
+    padding-top: 100px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .copyright {
+    color: #444;
+  }
